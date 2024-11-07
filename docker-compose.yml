@@ -1,0 +1,55 @@
+services:
+  tasks-api-db:
+    image: postgres
+    container_name: tasks-api-db
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - tasks-api-data:/var/lib/postgresql/data
+    networks:
+      - to-do-network
+    ports:
+      - "5432:5432"
+  
+  task-groups-api-db:
+    image: postgres
+    container_name: task-groups-api-db
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - task-groups-api-data:/var/lib/postgresql/data
+    networks:
+      - to-do-network
+    ports:
+      - "5433:5432"
+
+  tasks-db:
+    image: postgres
+    container_name: tasks-db
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - tasks-data:/var/lib/postgresql/data
+      - ./api/Tasks/DAL/Data/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - to-do-network
+    ports:
+      - "5434:5432"
+
+volumes:
+  tasks-api-data:
+    name: tasks-api-data
+  task-groups-api-data:
+    name: task-groups-api-data
+  tasks-data:
+    name: tasks-data
+
+networks:
+  to-do-network:
+    name: to-do-network

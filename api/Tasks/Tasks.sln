@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B05EB3B6-6F66-4C0F-A0E1-06FEF85B7BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL", "PL\PL.csproj", "{E1ED9A98-28F4-491F-A7C9-9A32F949A8DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05EB3B6-6F66-4C0F-A0E1-06FEF85B7BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05EB3B6-6F66-4C0F-A0E1-06FEF85B7BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05EB3B6-6F66-4C0F-A0E1-06FEF85B7BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05EB3B6-6F66-4C0F-A0E1-06FEF85B7BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ED9A98-28F4-491F-A7C9-9A32F949A8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ED9A98-28F4-491F-A7C9-9A32F949A8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ED9A98-28F4-491F-A7C9-9A32F949A8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ED9A98-28F4-491F-A7C9-9A32F949A8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

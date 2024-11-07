@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "l7pPBATvJZnoN7c6WI+/QRfVO8XmRxMvZ4xRtpkRcmWeo97eEV/VTQPezZAQPfPs+mRfShulsaLHIQfA+ptvPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\resme\\RiderProjects\\to-do\\api\\Tasks\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\resme\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\resme\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\resme\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\resme\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
